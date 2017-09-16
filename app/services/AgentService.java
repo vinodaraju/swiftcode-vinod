@@ -10,7 +10,7 @@ import java.util.UUID;
 import java.util.concurrent.CompletionStage;
 
 public class AgentService {
-    public AgentResponce getAgentResponce(String text) {
+    public AgentResponce getAgentResponse(String text) {
         AgentResponce agentResponce = new AgentResponce();
         try {
             WSRequest queryRequest = WS.url("https://api.api.ai/api/query");
